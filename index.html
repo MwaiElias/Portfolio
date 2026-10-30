@@ -4,8 +4,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <meta name="description" content="Elias Bundi Mwai - Creative Designer, Content Creator and ICT Professional based in Nairobi, Kenya.">
-<title>Elias Bundi Mwai | Professional Portfolio</title>
+
+<title>Elias Bundi Mwai | Portfolio</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,7 +58,7 @@ section {
     margin-bottom: 45px;
 }
 
-.section-heading .eyebrow {
+.eyebrow {
     color: var(--gold);
     font-size: 13px;
     letter-spacing: 3px;
@@ -102,7 +104,6 @@ nav {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 22px;
     font-weight: 700;
-    letter-spacing: 1px;
 }
 
 .logo span {
@@ -148,7 +149,6 @@ nav {
     min-height: 88vh;
     display: flex;
     align-items: center;
-    position: relative;
     overflow: hidden;
     background:
         radial-gradient(circle at 80% 40%, rgba(61,139,255,0.13), transparent 30%),
@@ -188,7 +188,6 @@ nav {
     color: var(--muted);
     max-width: 570px;
     margin: 25px 0 30px;
-    font-size: 16px;
 }
 
 .hero-buttons {
@@ -223,7 +222,6 @@ nav {
 .hero-photo-wrap {
     display: flex;
     justify-content: center;
-    position: relative;
 }
 
 .hero-photo-frame {
@@ -241,7 +239,6 @@ nav {
     height: 100%;
     object-fit: cover;
     border-radius: 160px 160px 12px 12px;
-    background: var(--surface);
 }
 
 /* ABOUT */
@@ -250,7 +247,6 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 60px;
-    align-items: start;
 }
 
 .about-text p {
@@ -282,6 +278,10 @@ nav {
 }
 
 /* EXPERTISE */
+
+.services-section {
+    background: #0b1220;
+}
 
 .services-grid {
     display: grid;
@@ -402,7 +402,7 @@ nav {
     font-size: 13px;
 }
 
-/* EDUCATION AND EXPERIENCE */
+/* EXPERIENCE */
 
 .timeline {
     max-width: 850px;
@@ -443,6 +443,10 @@ nav {
 }
 
 /* SKILLS */
+
+.skills-section {
+    background: #0b1220;
+}
 
 .skills-grid {
     display: grid;
@@ -659,10 +663,7 @@ footer span {
 
         <div class="hero-photo-wrap">
             <div class="hero-photo-frame">
-                <img
-                    src="myimage.jpeg"
-                    alt="Elias Bundi Mwai"
-                    class="hero-photo">
+                <img src="MYIMAGE.jpeg" alt="Elias Bundi Mwai" class="hero-photo">
             </div>
         </div>
 
@@ -728,16 +729,13 @@ footer span {
 </section>
 
 <!-- EXPERTISE -->
-<section id="services" style="background:#0b1220;">
+<section class="services-section" id="services">
     <div class="container">
 
         <div class="section-heading">
             <span class="eyebrow">What I do</span>
             <h2>Areas of <span class="highlight">expertise.</span></h2>
-            <p>
-                A combination of creative thinking, digital skills and
-                technology-focused problem solving.
-            </p>
+            <p>A combination of creative thinking, digital skills and technology-focused problem solving.</p>
         </div>
 
         <div class="services-grid">
@@ -745,28 +743,19 @@ footer span {
             <div class="service-card">
                 <div class="service-icon">✦</div>
                 <h3>Graphic Design & Branding</h3>
-                <p>
-                    Creating visual communication materials, promotional designs,
-                    posters, brand concepts and digital marketing graphics.
-                </p>
+                <p>Creating visual communication materials, promotional designs, posters, brand concepts and digital marketing graphics.</p>
             </div>
 
             <div class="service-card">
                 <div class="service-icon">▶</div>
                 <h3>Content Creation</h3>
-                <p>
-                    Developing visual content, promotional videos, photo-based
-                    storytelling and engaging digital media.
-                </p>
+                <p>Developing visual content, promotional videos, photo-based storytelling and engaging digital media.</p>
             </div>
 
             <div class="service-card">
                 <div class="service-icon">⌘</div>
                 <h3>ICT & Digital Solutions</h3>
-                <p>
-                    IT support, web technologies, digital systems, networking
-                    concepts and practical technology solutions.
-                </p>
+                <p>IT support, web technologies, digital systems, networking concepts and practical technology solutions.</p>
             </div>
 
         </div>
@@ -780,9 +769,7 @@ footer span {
         <div class="section-heading">
             <span class="eyebrow">Selected work</span>
             <h2>My <span class="highlight">projects.</span></h2>
-            <p>
-                A selection of my creative and technical work.
-            </p>
+            <p>A selection of my creative and technical work.</p>
         </div>
 
         <div class="project-filters">
@@ -795,7 +782,7 @@ footer span {
         <div class="projects-grid">
 
             <article class="project-card" data-category="ict">
-                <img class="project-image" src="task1.png" alt="Project One">
+                <img class="project-image" src="TASK1.png" alt="Project One">
                 <div class="project-info">
                     <span class="project-category">ICT & Systems</span>
                     <h3>Project One</h3>
@@ -804,7 +791,7 @@ footer span {
             </article>
 
             <article class="project-card" data-category="design">
-                <img class="project-image" src="task2.png" alt="Project Two">
+                <img class="project-image" src="TASK2.png" alt="Project Two">
                 <div class="project-info">
                     <span class="project-category">Graphic Design</span>
                     <h3>Project Two</h3>
@@ -813,7 +800,7 @@ footer span {
             </article>
 
             <article class="project-card" data-category="video">
-                <img class="project-image" src="task3.png" alt="Project Three">
+                <img class="project-image" src="TASK3.jpg" alt="Project Three">
                 <div class="project-info">
                     <span class="project-category">Content & Media</span>
                     <h3>Project Three</h3>
@@ -822,7 +809,7 @@ footer span {
             </article>
 
             <article class="project-card" data-category="ict">
-                <img class="project-image" src="task4.png" alt="Project Four">
+                <img class="project-image" src="TASK4.jpg" alt="Project Four">
                 <div class="project-info">
                     <span class="project-category">ICT & Systems</span>
                     <h3>Project Four</h3>
@@ -831,11 +818,20 @@ footer span {
             </article>
 
             <article class="project-card" data-category="design">
-                <img class="project-image" src="task5.png" alt="Project Five">
+                <img class="project-image" src="TASK5.jpg" alt="Project Five">
                 <div class="project-info">
                     <span class="project-category">Creative Work</span>
                     <h3>Project Five</h3>
                     <p>Creative work demonstrating visual presentation and attention to detail.</p>
+                </div>
+            </article>
+
+            <article class="project-card" data-category="ict">
+                <img class="project-image" src="TASK6.png" alt="Project Six">
+                <div class="project-info">
+                    <span class="project-category">ICT & Digital Work</span>
+                    <h3>Project Six</h3>
+                    <p>A project demonstrating digital skills, creativity and practical application.</p>
                 </div>
             </article>
 
@@ -883,7 +879,7 @@ footer span {
 </section>
 
 <!-- SKILLS -->
-<section style="background:#0b1220;">
+<section class="skills-section">
     <div class="container">
 
         <div class="section-heading">
